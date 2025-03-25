@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Matematik</h1>
+    </div>
+    
+    <div class="arti simbol">
+        <p>L= Luas | K=Keliling | S= Sisi </p> 
+    </div>
+       
+        <div class="rumus-container">
+            <p>Luas = S × S</p>
+            <p>|</p>
+            <p>Keliling = 4 × S</p>
+        </div>
+        
+        <div class="square"></div> <!-- Kotak 3D -->
+
+        <label for="sisi">Masukkan panjang sisi:</label>
+        <input type="number" id="sisi" placeholder="Masukkan angka">
+        <button onclick="hitung()">Hitung</button>
+
+        <div id="hasil"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,106 @@
+body {
+    background-color: #f5DF65;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.rumus-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.arti-simbol{
+    display: flex;
+justify-content: center;
+gap: 15px;
+}
+
+
+h1 {
+    color: #333;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #009B78;
+    margin: 10px auto;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 10px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    text-align: center;
+    border: 2px solid #009B78;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+button {
+    background: #009B78;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 85%;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input, button {
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin: 10px auto;
+}
+
+button:hover {
+    background: #007a5a;
+    transform: scale(1.05);
+}
+
+
+label {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+    
+}
+
+
+#hasil {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
